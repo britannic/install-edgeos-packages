@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# UniFi Security Gateways and EdgeOS Package Updater
+# This script checks /config/data/firstboot/install-packages/ for downloaded
+# packages and installs any that aren't installed
+
+downloads=/config/data/firstboot/install-packages
+
+cd $downloads
+
+for pkg in *; do
+  dpkg-query -W --showformat='${Status}\n' \
+  $(dpkg --info "${pkg}" | \
+  grep "Package: " | \
+  awk -F' ' '{ print $NF}') > /dev/null 2>&1 || dpkg -i ${pkg}
+done
+
+cd -
