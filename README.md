@@ -1,4 +1,4 @@
-# UBNT Install EdgeOS Packages Script
+# UBNT Install EdgeOS Packages Script with Upgrade Persistence
 
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/britannic/blacklist/blob/master/LICENSE.txt)[![Version](https://img.shields.io/badge/version-v1.0-green.svg)](https://github.com/britannic/install-edgeos-packages)
 
@@ -75,6 +75,7 @@ sudo install -o root -g root -m 0755 install-pkgs /config/scripts/post-config.d/
 ```bash
 sudo mkdir -p /config/data/firstboot/install-packages
 cd /config/data/firstboot/install-packages
+sudo apt-get update
 sudo apt-get download [package name]
 ```
 
