@@ -4,13 +4,13 @@
 
 NOTE: THIS IS NOT OFFICIAL UBIQUITI SOFTWARE AND THEREFORE NOT SUPPORTED OR ENDORSED BY [Ubiquiti Networks®](https://www.ubnt.com/)
 
-## Copyright
-
-* Copyright © 2018 Helm Rock Consulting
-
 ## Overview
 
 * Script ensures packages are installed at the end of EdgeOS boot sequence, for any packages not installed during the first boot after an upgrade
+
+## Copyright
+
+* Copyright © 2018 Helm Rock Consulting
 
 ## Licenses
 
