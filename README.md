@@ -1,4 +1,4 @@
-# UBNT edgeos-dnsmasq-blacklist dnsmasq DNS blacklisting and redirection
+# UBNT Install EdgeOS Packages Script
 
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/britannic/blacklist/blob/master/LICENSE.txt)[![Version](https://img.shields.io/badge/version-v1.0-green.svg)](https://github.com/britannic/install-edgeos-packages)
 
