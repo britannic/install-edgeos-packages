@@ -1,6 +1,6 @@
 # UBNT Install EdgeOS Packages Script with Upgrade Persistence
 
-[![License](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/britannic/blacklist/blob/master/LICENSE.txt)[![Version](https://img.shields.io/badge/version-v1.0-green.svg)](https://github.com/britannic/install-edgeos-packages)
+[![License](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/britannic/blacklist/blob/master/LICENSE.txt)[![Version](https://img.shields.io/badge/version-v1.0.1-green.svg)](https://github.com/britannic/install-edgeos-packages)
 
 NOTE: THIS IS NOT OFFICIAL UBIQUITI SOFTWARE AND THEREFORE NOT SUPPORTED OR ENDORSED BY [Ubiquiti Networks®](https://www.ubnt.com/)
 
@@ -43,7 +43,7 @@ modification, are permitted provided that the following conditions are met:
 * Iterates through any packages downloaded to:
 
 ```bash
-/config/data/firstboot/install-packages
+/config/data/install-packages
 ```
 
 ## Compatibility
@@ -73,8 +73,8 @@ sudo install -o root -g root -m 0755 install-pkgs /config/scripts/post-config.d/
 * To add packages (use the mkdir command if the directory doesn't exist):
 
 ```bash
-sudo mkdir -p /config/data/firstboot/install-packages
-cd /config/data/firstboot/install-packages
+sudo mkdir -p /config/data/install-packages
+cd /config/data/install-packages
 sudo apt-get update
 sudo apt-get download [package name]
 ```
@@ -94,6 +94,5 @@ sudo rm /config/scripts/post-config.d/install-pkgs
 ## Usage
 
 * In daily use, no additional interaction with install-pkgs is required.
-
 
 > install-edgeos-packages

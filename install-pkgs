@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # UniFi Security Gateways and EdgeOS Package Updater
-# This script checks /config/data/firstboot/install-packages/ for downloaded
+# This script checks /config/data/install-packages/ for downloaded
 # packages and installs any that aren't installed
 #
 # Author: Neil Beadle
 
 
-downloads=/config/data/firstboot/install-packages
+downloads=/config/data/install-packages
 
 cd $downloads
 
