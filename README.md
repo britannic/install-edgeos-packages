@@ -10,7 +10,7 @@ NOTE: THIS IS NOT OFFICIAL UBIQUITI SOFTWARE AND THEREFORE NOT SUPPORTED OR ENDO
 
 ## Copyright
 
-* Copyright © 2018 Helm Rock Consulting
+* Copyright © 2019 Helm Rock Consulting
 
 ## Licenses
 
