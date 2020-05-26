@@ -49,7 +49,6 @@ modification, are permitted provided that the following conditions are met:
 ## Compatibility
 
 * install-pkgs has been tested on the EdgeRouter ERLite-3, ERPoe-5, ER-X and UniFi Security Gateway USG-3 routers
-  * versions EdgeMAX: v1.7.0-v1.9.7+hotfix.4, UniFi: v4.4.12-v4.4.18
 
 ## Latest Release
 
