@@ -50,10 +50,6 @@ modification, are permitted provided that the following conditions are met:
 
 * install-pkgs has been tested on the EdgeRouter ERLite-3, ERPoe-5, ER-X and UniFi Security Gateway USG-3 routers
 
-## Latest Release
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Latest Release](https://img.shields.io/badge/-Latest%20Release-green.svg)](https://github.com/britannic/install-edgeos-packages/releases/latest)
-
 ## Change Log
 
 * See [changelog](CHANGELOG.md) for details.
